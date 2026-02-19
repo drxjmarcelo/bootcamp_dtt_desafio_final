@@ -119,3 +119,8 @@ C:\Users\aluno\Desktop\bootcamp_dtt_desafio_final\EquipApi\obj\Debug\net10.0\ref
 C:\Users\aluno\Desktop\bootcamp_dtt_desafio_final\EquipApi\obj\Debug\net10.0\EquipApi.pdb
 C:\Users\aluno\Desktop\bootcamp_dtt_desafio_final\EquipApi\obj\Debug\net10.0\EquipApi.genruntimeconfig.cache
 C:\Users\aluno\Desktop\bootcamp_dtt_desafio_final\EquipApi\obj\Debug\net10.0\ref\EquipApi.dll
+C:\Users\aluno\Desktop\bootcamp_dtt_desafio_final\EquipApi\bin\Debug\net10.0\Npgsql.dll
+C:\Users\aluno\Desktop\bootcamp_dtt_desafio_final\EquipApi\bin\Debug\net10.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\aluno\Desktop\bootcamp_dtt_desafio_final\EquipApi\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\aluno\Desktop\bootcamp_dtt_desafio_final\EquipApi\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\aluno\Desktop\bootcamp_dtt_desafio_final\EquipApi\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
