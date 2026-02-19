@@ -1,6 +1,6 @@
-@EquipAPI_HostAddress = http://localhost:5102
+@EquipApi_HostAddress = http://localhost:5222
 
-GET {{EquipAPI_HostAddress}}/weatherforecast/
+GET {{EquipApi_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
