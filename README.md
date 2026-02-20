@@ -1,4 +1,4 @@
-﻿# Desafio Final - Gerenciador de Equipamentos
+﻿# 🟢Desafio Final - Gerenciador de Equipamentos
  Programa para listar, alterar, manipular, deletar equipamentos de mineração.
  
 ## Estrutura 🏗️
@@ -47,3 +47,4 @@ dotnet run
 http://localhost:5222/swagger
 
 ```
+
