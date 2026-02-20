@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U5jx2UdyWjA=",
+  "dgSpecHash": "02sPh1IbuGA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\aluno\\Desktop\\bootcamp_dtt_desafio_final\\EquipAPI\\EquipApi.csproj",
+  "projectFilePath": "C:\\Users\\aluno\\Desktop\\bootcamp_dtt_desafio_final\\EquipApi\\EquipApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aluno\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\aluno\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.8\\microsoft.aspnetcore.openapi.8.0.8.nupkg.sha512",
