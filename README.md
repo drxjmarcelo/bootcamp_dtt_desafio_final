@@ -47,4 +47,4 @@ dotnet run
 http://localhost:5222/swagger
 
 ```
-
+## Resultados Testes Insomnia:
