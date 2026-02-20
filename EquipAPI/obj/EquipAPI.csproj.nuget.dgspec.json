@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Russo\\Desktop\\bootcamp_dtt_desafio_final\\EquipApi\\EquipApi.csproj": {}
+    "C:\\Users\\aluno\\Desktop\\bootcamp_dtt_desafio_final\\EquipApi\\EquipApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Russo\\Desktop\\bootcamp_dtt_desafio_final\\EquipApi\\EquipApi.csproj": {
+    "C:\\Users\\aluno\\Desktop\\bootcamp_dtt_desafio_final\\EquipApi\\EquipApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Russo\\Desktop\\bootcamp_dtt_desafio_final\\EquipApi\\EquipApi.csproj",
+        "projectUniqueName": "C:\\Users\\aluno\\Desktop\\bootcamp_dtt_desafio_final\\EquipApi\\EquipApi.csproj",
         "projectName": "EquipApi",
-        "projectPath": "C:\\Users\\Russo\\Desktop\\bootcamp_dtt_desafio_final\\EquipApi\\EquipApi.csproj",
-        "packagesPath": "C:\\Users\\Russo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Russo\\Desktop\\bootcamp_dtt_desafio_final\\EquipApi\\obj\\",
+        "projectPath": "C:\\Users\\aluno\\Desktop\\bootcamp_dtt_desafio_final\\EquipApi\\EquipApi.csproj",
+        "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aluno\\Desktop\\bootcamp_dtt_desafio_final\\EquipApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Russo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -87,19 +87,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.23, 8.0.23]"
+              "version": "[8.0.24, 8.0.24]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.23, 8.0.23]"
+              "version": "[8.0.24, 8.0.24]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.23, 8.0.23]"
+              "version": "[8.0.24, 8.0.24]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.23, 8.0.23]"
+              "version": "[8.0.24, 8.0.24]"
             }
           ],
           "frameworkReferences": {
@@ -110,7 +110,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
