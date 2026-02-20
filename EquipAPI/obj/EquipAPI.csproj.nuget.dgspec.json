@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aluno\\Desktop\\bootcamp_dtt_desafio_final\\EquipApi\\EquipApi.csproj": {}
+    "C:\\Users\\aluno\\Desktop\\bootcamp_dtt_desafio_final\\EquipAPI\\EquipApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aluno\\Desktop\\bootcamp_dtt_desafio_final\\EquipApi\\EquipApi.csproj": {
+    "C:\\Users\\aluno\\Desktop\\bootcamp_dtt_desafio_final\\EquipAPI\\EquipApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aluno\\Desktop\\bootcamp_dtt_desafio_final\\EquipApi\\EquipApi.csproj",
+        "projectUniqueName": "C:\\Users\\aluno\\Desktop\\bootcamp_dtt_desafio_final\\EquipAPI\\EquipApi.csproj",
         "projectName": "EquipApi",
-        "projectPath": "C:\\Users\\aluno\\Desktop\\bootcamp_dtt_desafio_final\\EquipApi\\EquipApi.csproj",
+        "projectPath": "C:\\Users\\aluno\\Desktop\\bootcamp_dtt_desafio_final\\EquipAPI\\EquipApi.csproj",
         "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aluno\\Desktop\\bootcamp_dtt_desafio_final\\EquipApi\\obj\\",
+        "outputPath": "C:\\Users\\aluno\\Desktop\\bootcamp_dtt_desafio_final\\EquipAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"

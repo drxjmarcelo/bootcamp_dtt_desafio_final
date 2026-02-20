@@ -27,7 +27,7 @@ _Usar a porta: **5000**_
 
 **No terminal do Visual Studio Code, utilize o comando abaixo:**
 ```
-docker compose up -d
+docker compose up -d --build
 ```
 **Em seguida, abra seu navegador e coloque:**
 ```
