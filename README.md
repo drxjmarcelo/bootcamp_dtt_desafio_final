@@ -24,7 +24,7 @@ app.UseSwaggerUI();
 ```
 Sem esse trecho, o código **não** irá abrir no navegador.
 
-## Como Rodar **Com** o Docker? 🚢🤷
+## 🔵Como Rodar **Com** o Docker? 🚢🤷
 _Usar a porta: **5000**_
 
 **No terminal do Visual Studio Code, utilize o comando abaixo:**
@@ -36,7 +36,7 @@ docker compose up -d --build
 http://localhost:5000/swagger
 ```
 
-## Como Rodar **Sem** o Docker? ❌🚢🤷
+## 🔴Como Rodar **Sem** o Docker? ❌🚢🤷
 
 **No terminal do Visual Studio Code, utilize o comando abaixo:**
 ```
@@ -49,7 +49,7 @@ dotnet run
 http://localhost:5666/swagger
 
 ```
-## Resultados Testes Insomnia:
+## 🟣Resultados Testes Insomnia:
 A saída dos testes devem ser nesse modelo:
 ```
 {
