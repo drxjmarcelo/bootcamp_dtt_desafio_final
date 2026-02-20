@@ -12,7 +12,6 @@
 * UpdateEquipamentosDto.cs
 ### Models: 🧊
 * Equipamentos.cs
-* HistoricoLocalizacao.cs (**_Não concluído_**)
 ### Services: 🔧
 * EquipService.cs
 
