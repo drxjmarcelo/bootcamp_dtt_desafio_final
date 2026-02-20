@@ -1,0 +1,33 @@
+-- Cria schema
+CREATE SCHEMA IF NOT EXISTS public;
+
+-- Deleta a tabela se já existir
+DROP TABLE IF EXISTS public."Equipamentos" CASCADE;
+
+-- Cria a tabela
+CREATE TABLE public."Equipamentos" (
+    id SERIAL PRIMARY KEY,
+    codigo VARCHAR(50) NOT NULL,
+    tipo VARCHAR(50) NOT NULL,
+    modelo VARCHAR(50) NOT NULL,
+    horimetro NUMERIC(10,2) NOT NULL,
+    statusoperacional VARCHAR(50) NOT NULL,
+    dataaquisicao DATE NOT NULL,
+    localizacaoatual VARCHAR(200) NOT NULL
+);
+
+-- Índice único
+CREATE UNIQUE INDEX ux_equipamentos_codigo
+    ON public."Equipamentos" (codigo);
+
+-- Insere registro de exemplo
+INSERT INTO public."Equipamentos"
+(codigo, tipo, modelo, horimetro, statusoperacional, dataaquisicao, localizacaoatual)
+VALUES 
+('CAT-793F-000123', 'Caminhao', 'Caterpillar 793F', 18234.5, 'Operacional', '2019-03-15', 'Mina Carajás N4E'),
+('CAT-793F-000124', 'Caminhao', 'Caterpillar 793F', 45024.3, 'Manutencao', '2003-10-21', 'Mina Carajás N4E'),
+('CAT-793F-000126', 'Caminhao', 'Caterpillar 793F', 11504.4, 'Operacional', '2024-06-18', 'Mina Carajás N4F'),
+('CAT-793F-000132', 'Caminhao', 'Caterpillar 793F', 10234.1, 'Operacional', '2021-07-15', 'Mina Carajás N4E');
+
+-- Consulta rápida para conferir
+select * from public."Equipamentos" order by id;
