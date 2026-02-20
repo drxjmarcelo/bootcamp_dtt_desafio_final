@@ -23,6 +23,30 @@ app.UseSwaggerUI();
 ```
 Sem esse trecho, o código **não** irá abrir no navegador.
 
+## 🚀 Tecnologias Utilizadas
+
+- .NET 8
+- ASP.NET Core Web API
+- Entity Framework Core
+- PostgreSQL
+- Docker
+- Swagger
+
+## 🗄️ Banco de Dados
+
+O projeto utiliza PostgreSQL.
+
+A tabela `Equipamentos` possui a seguinte estrutura:
+
+- id (SERIAL - PK)
+- codigo (VARCHAR(50) - UNIQUE)
+- tipo (VARCHAR(50))
+- modelo (VARCHAR(50))
+- horimetro (NUMERIC(10,2))
+- statusoperacional (VARCHAR(50))
+- dataaquisicao (DATE)
+- localizacaoatual (VARCHAR(200))
+
 ## 🔵Como Rodar **Com** o Docker? 🚢🤷
 _Usar a porta: **5000**_
 
