@@ -47,6 +47,23 @@ A tabela `Equipamentos` possui a seguinte estrutura:
 - dataaquisicao (DATE)
 - localizacaoatual (VARCHAR(200))
 
+## 📌 Endpoints
+
+### 🔹 GET /equipamentos
+Lista todos os equipamentos cadastrados.
+
+### 🔹 GET /equipamentos/{id}
+Busca um equipamento por ID.
+
+### 🔹 POST /equipamentos
+Cria um novo equipamento.
+
+### 🔹 PUT /equipamentos/{id}
+Atualiza um equipamento existente.
+
+### 🔹 DELETE /equipamentos/{id}
+Remove um equipamento.
+
 ## 🔵Como Rodar **Com** o Docker? 🚢🤷
 _Usar a porta: **5000**_
 
