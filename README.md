@@ -7,7 +7,9 @@
 ### Data: 💾
 * AppDbContext.cs
 ### Dtos: 📋
-* N/A
+* CreateEquipamentosDto.cs
+* EquipamentosResponseDto.cs
+* UpdateEquipamentosDto.cs
 ### Models: 🧊
 * Equipamentos.cs
 * HistoricoLocalizacao.cs (**_Não concluído_**)
@@ -41,10 +43,22 @@ http://localhost:5000/swagger
 dotnet run
 ```
 
-**Observe a porta que ele apontou. Ex.: "Now listening on 5222"**
+**Observe a porta que ele apontou. Ex.: "Now listening on 5666"**
 **Em seguida, abra seu navegador e coloque a porta apontada:**
 ```
-http://localhost:5222/swagger
+http://localhost:5666/swagger
 
 ```
 ## Resultados Testes Insomnia:
+A saída dos testes devem ser nesse modelo:
+```
+{
+  "codigo": "CAT-793F-000123",
+  "tipo": "Caminhao",
+  "modelo": "Caterpillar 793F",
+  "horimetro": 18234.5,
+  "statusOperacional": "Operacional",
+  "dataAquisicao": "2019-03-15",
+  "localizacaoAtual": "Mina Carajás N4E"
+}
+```
