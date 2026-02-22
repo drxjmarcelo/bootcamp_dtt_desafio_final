@@ -101,4 +101,14 @@ A saída dos testes devem ser nesse modelo:
   "dataAquisicao": "2019-03-15",
   "localizacaoAtual": "Mina Carajás N4E"
 }
+
 ```
+## ⚠AVISO:
+Quando eu criei o projeto com o comando:
+```
+dotnet new webapi -n
+```
+Eu nomeei a api como **"EquipAPI"** e so dps renomeei tudo para EquipApi
+Caso esse git seja clonado, o codigo nao vai rodar porque o arquivo **"EquipAPI.csproj"** está escrito com **"API"**.
+Para fazer o codigo funcionar, após a clonagem do repositório, renomeie o arquivo para **"EquipApi"** (minúsculo), do contrario, **não irá rodar**.
+
