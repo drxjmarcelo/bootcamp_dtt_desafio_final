@@ -108,7 +108,10 @@ Quando eu criei o projeto com o comando:
 ```
 dotnet new webapi -n
 ```
-Eu nomeei a api como **"EquipAPI"** e so dps renomeei tudo para EquipApi
-Caso esse git seja clonado, o codigo nao vai rodar porque o arquivo **"EquipAPI.csproj"** está escrito com **"API"**.
-Para fazer o codigo funcionar, após a clonagem do repositório, renomeie o arquivo para **"EquipApi"** (minúsculo), do contrario, **não irá rodar**.
+Eu nomeei a api como **"EquipAPI"** e so dps renomeei tudo para EquipApi.
+Caso esse repositório seja clonado, o código **não vai rodar porque** o arquivo **"EquipAPI.csproj"** está escrito com **"API"**.
+
+### ✅Solução:
+Para fazer o codigo funcionar, após a clonagem do repositório, renomeie o arquivo para **"EquipApi"** (minúsculo).
+
 
